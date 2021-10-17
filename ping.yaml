@@ -1,0 +1,8 @@
+-
+  name: demo ping
+  hosts: slave1
+  gather_facts: yes
+  tasks:
+    - name: ping test
+      ping:
+        #####ffffdxdscsdcsddccxssdcdsss
